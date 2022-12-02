@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rohit Mangale">
+    <meta name="description" content="Rohit Mangale's Portfolio">
+    <link rel="icon" href="images/portfolio_icon.png" type="image/x-icon">
+    <title>Rohit Mangale Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/02f9eebff4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interests</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>  
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>                  
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi,I'm <span>Rohit</span> <br> Mangale From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Creative and driven final year Information Technology Engineering
+                        diploma student at Government Polytechnic Mumbai, seeking an
+                        internship opportunity in a reputed organization to gain industry
+                        experience where I can learn new skills, expand my knowledge, and
+                        leverage my learnings while adding value to organizational operations.I am a quick learner and patient listener to  helpful advices.I tend to keep a learning mindset to progressively enhance and refine my skillset and increase my knowledge.
+                        </p>
+                    
+                </div>
+                <div class="about-col-2">
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Android Development</span><br>Android Studio/Flutter, Rest Api, Firebase, Figma</li>
+                            <li><span>Web Development</span><br>HTML, CSS, Javascript, Nodejs, Reactjs</li>
+                            <li><span>Databases</span><br>Firebase, MongoDB, MySQL</li>
+                            <li><span>Languages</span><br>Python, Java, Dart, HTML/CSS/Javascript, MySql/Sql</li>
+                            <li><span>Databases</span><br>Firebase, MongoDB, MySQL</li>
+                            <li><span>Softwares</span><br>Android Studio, Linux, Figma, VS Code, Visual Studio, Arduino IDE, VM Ware,  Cisco Packet Tracer</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Diploma in IT at Government Polytechnic Mumbai</li>
+                            <li><span>2022</span><br>SSC SSVEHS</li>                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------services--------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Interests</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>App Development</h2>
+                    <p>I have quite the experience in building apps with android studio.I have also worked with Flutter, to build apps.I have knowledge of Java and Dart and I'm learning kotlin.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-regular fa-window-maximize"></i>
+                    <h2>Web Development</h2>
+                    <p>I have been working on Web Development since my first year in diploma. I am very proficient with html,css and javascript.I have also learned nodejs and react</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>Software Testing</h2>
+                    <p>I have conducted manual and automated tests of various softwares and apps.I am quite familiar with the Selenium IDE.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------------------------portfolio--------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pic3.jpg" >
+                    <div class="layer">
+                        <h3>Notes App</h3>
+                        <p>The notes app is efficient and useful.User needs to log in the app to use it.User can create,edit, and delete notes. The notes are based on a random colour theme, every time you open the app the notes have a different colour theme.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic1.jpg" >
+                    <div class="layer">
+                        <h3>Language Translator</h3>
+                        <p>The Language Translator app is a important companion when visiting foreign places or places with a language you don't know.The app can convert text from a selected language to another desired language. The app also has the feature to record voice, saving you from the hassle to type text.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic2.jpg" >
+                    <div class="layer">
+                        <h3>Sensors App</h3>
+                        <p>Sensors app lets you use various sensors present in your mobile phone. It provides you a interface for your sensors at a single place,saving you the trouble of opening different sensors.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------contact--------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>     
+                    <p><i class="fa-solid fa-envelope"></i>rohitmangale010@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 86579 00191</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Mumbai, Maharashtra</p>
+                    <p><a href="https://github.com/RohitMangale"><i class="fa-brands fa-github"></i></a>github.com/RohitMangale</p>
+                    
+                    <a href="images/Rohit Mangale Resume.pdf" download class="btn btn2">Download CV</a>               
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©Rohit Mangale_2022. All rights reserved</p>
+            <p> Made with <i class="fa-solid fa-heart"></i> by Rohit Mangale</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          
+
+        }
+
+    </script>
+    
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+
+ 
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzeySj9Xtj6z2uHZroLCMG2EJvWR_riXGE4gwkcldhYe3DAkuhijZsO_ahigJqe7W7VPA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
